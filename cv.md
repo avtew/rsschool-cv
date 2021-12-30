@@ -7,6 +7,7 @@
 *Telegram:* avtew
 
 ### About Me:
+I'm 35 years old. I love tech, computers and cats.
 
 ### Skills:
 * CNC programming

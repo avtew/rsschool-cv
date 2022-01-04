@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin: 0 auto;
+    font: 16px 'Quicksand', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 900px;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0;
+}
+
+.menu-item {
+    list-style: none;
+    padding: 20px 0 20px 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+    font: 16px 'Quicksand', sans-serif;
+}
+
+.h1 {
+    margin: 40px 0 10px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+.avatar-section {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 300px;
+}
+
+.avatar-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    padding: 0;
+    background-image: url(assets/avatar.png);
+    background-size: 200px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.main-section {
+    display: flex;
+    width: 900px;
+    height: 250px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 300px;
+}
+
+.list {
+    list-style: none;
+    margin: 10px 20px;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    height: 36px;
+}
+
+.list-work {
+    list-style: none;
+    margin: 65px 20px;
+    padding: 0;
+}
+
+.item-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    height: 70px;
+}
+
+.h2 {
+    margin: 20px 20px 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+.text {
+    margin: 10px 20px;
+    line-height: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: auto;
+    font: 20px 'Quicksand', sans-serif;
+    font-weight: 400;
+    border-top: 1px solid black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 900px;
+}

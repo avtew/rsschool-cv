@@ -1,7 +1,7 @@
 # ANTON ISHKIN
 
 ### Contact:
-*E-mail:* avtew@yandex.ru  
+*E-mail:* avtew@outlook.com  
 *GitHub:* avtew  
 *Discord:* avtew  
 *Telegram:* avtew
@@ -12,12 +12,21 @@ I'm 35 years old. I love tech, computers and cats.
 ### Skills:
 * CNC programming
 * Basic HTML & CSS 
+* Basic Core JS
 * Grafic design (Photoshop, Illustrator)
 
 ### Code Example:
+Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string)  
 ```
-function multiply (a, b) {
-  return a * b;
+function solution(str, ending) {
+  let x = str.split('').reverse().slice(0, ending.length);
+  let y = ending.split('').reverse();
+  for (i = 0; i < ending.length; i++) {
+    if (x[i] != y[i]) {
+      return false;
+    }
+  }
+  return true;
 }
 ```
 ### Work Experience
@@ -31,6 +40,7 @@ function multiply (a, b) {
 * Courses:
     * Professional education program "CNC Operator"
     * Course of lectures "Lean Manufacturing"
+* RS Scools JS/FE Pre-school 2022
     
 ### English Level:
-Iintermediate (B1)  
+Iintermediate (A2)  

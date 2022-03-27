@@ -69,8 +69,6 @@ a {
 }
 
 .container-main {
-    display: flex;
-    flex-direction: column;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -196,4 +194,36 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.block-projects {
+    padding: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 20px 0 20px 0;
+}
+
+.block-edu {
+    padding: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 20px 0 20px 0;
+}
+
+.list-edu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.box-edu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
 }

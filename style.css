@@ -29,6 +29,8 @@ html {
 body {
     margin: 0;
     padding: 0 20px;
+    font: 22px 'Oxanium', sans-serif;
+    font-weight: 400;
     color: goldenrod;
     background-color: black;
 }
@@ -69,29 +71,30 @@ a {
 .container-main {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.section-bio {
+.section {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 h1 {
     margin: 0;
     font-size: 24px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 h2 {
     margin: 0;
     font: 24px 'Gugi', sans-serif;
     font-weight: 400;
+    text-transform: uppercase;
     border-bottom: 2px solid goldenrod;
 }
 
@@ -102,7 +105,6 @@ h2 {
     width: 100%;
     font: 24px 'Gugi', sans-serif;
     font-weight: 400;
-    text-transform: uppercase;
     border: 2px solid goldenrod;
     border-radius: 20px 0 20px 0;
 }
@@ -110,8 +112,13 @@ h2 {
 .block-char {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     gap: 20px;
+}
+
+.block-info {
+    display: flex;
+    gap: 20px;
+    height: 250px;
 }
 
 .avatar {
@@ -121,37 +128,72 @@ h2 {
     border-radius: 20px 0 20px 0;
 }
 
-.block-info {
-    display: flex;
-    gap: 20px;
-    font: 24px 'Oxanium', sans-serif;
-    font-weight: 400;
-}
-
 .block-stats {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 20px;
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
     padding: 20px;
     border: 2px solid goldenrod;
     border-radius: 20px 0 20px 0;
 }
 
-.stat-list {
+.stats {
+    display: flex;
+    gap: 20px;
+}
+
+.list-stats {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     gap: 20px;
+}
+
+.block-skills {
+    padding: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 20px 0 20px 0;
+}
+
+.list-skills {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
     flex-wrap: wrap;
-    height: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.box-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.icon {
+    width: 130px;
+    height: 130px;
+    padding: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 20px 0 20px 0;
+}
+
+.block-exp {
+    padding: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 20px 0 20px 0;
+}
+
+.list-exp {
+    display: flex;
+    justify-content: space-between;
     padding: 20px 0;
 }
 
-.block-bio {
-    padding: 20px;
-    border: 2px solid goldenrod;
-    border-radius: 20px 0 20px 0;
+.box-exp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

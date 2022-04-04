@@ -156,18 +156,29 @@ h2 {
 
 .list-skills {
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
+    gap: 10px;
     flex-wrap: wrap;
-    margin-top: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
     padding-top: 20px;
+}
+
+.skills-cat {
+    display: flex;
+    flex-direction: column;
 }
 
 .box-skill {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
 }
 
 .icon {

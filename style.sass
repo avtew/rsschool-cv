@@ -1,0 +1,321 @@
+// @font-face
+//   font-family: Gruppo
+//   src: url(./assets/fonts/Gruppo-Regular.ttf)
+
+@font-face
+  font-family: Gugi
+  src: url(./assets/fonts/Gugi-Regular.ttf)
+
+// @font-face
+//   font-family: NovaSquare
+//   src: url(./assets/fonts/NovaSquare-Regular.ttf)
+  
+@font-face
+  font-family: Oxanium
+  src: url(./assets/fonts/Oxanium-VariableFont_wght.ttf)
+
+html
+  margin: 0
+  scroll-behavior: smooth
+
+.body
+  margin: 0
+  padding: 20px
+  font: 16px 'Oxanium', sans-serif
+  font-weight: 400
+  color: white
+  background-color: black
+  box-sizing: border-box
+
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  max-width: 1200px
+  margin: 0 auto
+  font: 16px 'Gugi', sans-serif
+  font-weight: 400
+  text-transform: uppercase
+  box-sizing: border-box
+
+a
+  color: goldenrod
+  text-decoration: none
+
+a:hover
+  color: white
+  transition: 0.3s
+
+.header_nav
+  width: 100%
+  height: 100%
+
+.header_menu
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 100%
+  margin: 0
+  padding: 0
+
+.header_menu-item
+  list-style: none
+
+.main 
+  display: flex
+  flex-direction: column
+  gap: 20px
+  max-width: 1200px
+  margin: 0 auto
+  padding: 20px 0
+
+.main_section
+  display: flex
+  flex-direction: column
+  gap: 20px
+  width: 100%
+
+.block-name
+  display: flex
+  justify-content: space-between
+  width: 100%
+  padding: 20px
+  font: 20px 'Oxanium', sans-serif
+  font-weight: 400
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+  box-sizing: border-box
+
+h1
+  margin: 0
+  color: goldenrod
+  font: 20px 'Gugi', sans-serif
+  font-weight: 400
+  text-transform: uppercase
+
+h2
+  margin: 0
+  color: goldenrod
+  font: 16px 'Gugi', sans-serif
+  font-weight: 400
+  text-transform: uppercase
+  border-bottom: 2px solid goldenrod
+
+h3
+  margin: 0
+  color: goldenrod
+  font: 16px 'Gugi', sans-serif
+  font-weight: 400
+  text-transform: uppercase
+
+h4
+  margin: 0
+  color: goldenrod
+  font: 16px 'Oxanium', sans-serif
+  font-weight: 400
+  text-transform: uppercase
+
+.block-info
+  display: flex
+  gap: 20px
+  width: 100%
+  
+.block-info_avatar
+  width: 285px
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+  box-sizing: border-box
+
+.block-info_attributes
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  gap: 20px
+  width: 285px
+  padding: 20px
+  background-image: url("./assets/img/honeycombs.png")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position-x: 50px
+  background-position-y: 190px
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+  box-sizing: border-box
+
+.block-info_list
+  display: flex
+  flex-direction: column
+  gap: 20px
+
+.block-info_stats
+  display: flex
+  justify-content: space-between
+
+.block-info_bio
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  gap: 20px
+  width: 50%
+  padding: 20px
+  background-image: url("./assets/img/honeycombs.png")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position-x: 100px
+  background-position-y: 250px
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+
+.block-info_intro
+  display: flex
+  flex-direction: column
+  padding: 20px
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+  box-sizing: border-box
+
+.block-info_video
+  display: flex
+  justify-content: center
+  padding: 20px 0 0 0
+
+.block-skills
+  padding: 20px
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+
+.block-skills_container
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  gap: 20px
+  flex-wrap: wrap
+  width: 100%
+  padding-top: 20px
+
+.block-skills_category
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 20px
+  width: 100%
+
+.block-skills_category-container
+  display: flex
+  justify-content: space-between
+  gap: 20px
+  width: 100%
+
+.block-skills_category-passive
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  gap: 20px
+
+.block-skills_category-language
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+
+.block-skills_list
+  display: flex
+  // justify-content: space-between
+  gap: 38.75px
+  width: 100%
+
+.block-skills_card
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 20px
+  width: 94px
+
+.block-skills_icon
+  width: 50px
+  height: 50px
+  padding: 20px
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+
+.block-experience
+  display: flex
+  justify-content: center
+  gap: 20px
+  width: 100%
+
+.block-work
+  width: 50%
+  padding: 20px
+  background-image: url("./assets/img/honeycombs.png")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position-x: 50px
+  background-position-y: 190px
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+
+.block-work_list
+  display: flex
+  flex-direction: column
+  gap: 20px
+  padding: 20px 0 0 0
+
+.block-work_card
+  display: flex
+  flex-direction: column
+  gap: 5px
+
+.block-education
+  width: 50%
+  padding: 20px
+  background-image: url("./assets/img/honeycombs.png")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position-x: 50px
+  background-position-y: 190px
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+
+.block-education_list
+  display: flex
+  flex-direction: column
+  gap: 20px
+  padding: 20px 0 0 0
+
+.block-education_card
+  display: flex
+  flex-direction: column
+  gap: 5px
+
+.block-projects
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  gap: 20px
+  width: 100%
+  padding: 20px
+  background-image: url("./assets/img/honeycombs.png")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position-x: 50px
+  background-position-y: 190px
+  border: 2px solid goldenrod
+  border-radius: 20px 0 20px 0
+  box-sizing: border-box
+
+.footer
+  display: flex
+  justify-content: space-between
+  max-width: 1200px
+  margin: 0 auto
+
+@media (max-width: 1240px)
+  .main_section
+    align-items: center
+
+  .block-info
+    justify-content: center
+    flex-wrap: wrap
+    width: 590px

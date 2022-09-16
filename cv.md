@@ -46,6 +46,7 @@ function duplicateEncode(word) {
   return result;
 }
 ```
+
 ### Work Experience
 * Worker  
 *Machine-building company "Petrozavodskmash"*
@@ -60,6 +61,6 @@ function duplicateEncode(word) {
     * Course of lectures "Lean Manufacturing"
     * Education program "CNC Operator"
     * RSSchool JavaScript/Frontend Pre-School
-    
+ 
 ### English Level:
-Iintermediate (B1)  
+Iintermediate (A2)  

@@ -63,4 +63,4 @@ function duplicateEncode(word) {
     * RSSchool JavaScript/Frontend Pre-School
  
 ### English Level:
-Iintermediate (A2)  
+Iintermediate (B1)
